@@ -8,4 +8,5 @@ You have 8 guesses, if you guessed the letter right the guesses won't decrease, 
 If you guessed the word right so, Congrats you won.
 
 Enjoy playing this game and if you want to develop the code or play with it whatever you want, just do it.
+
 Happy Coding ;)
