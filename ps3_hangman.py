@@ -1,11 +1,5 @@
 # Hangman game
 
-# -----------------------------------
-# Helper code
-# You don't need to understand this helper code,
-# but you will have to know how to use the functions
-# (so be sure to read the docstrings!)
-
 import random
 import string
 
@@ -28,11 +22,7 @@ def loadWords():
 def chooseWord(wordlist):
     return random.choice(wordlist)
 
-# end of helper code
-# -----------------------------------
 
-# Load the list of words into the variable wordlist
-# so that it can be accessed from anywhere in the program
 wordlist = loadWords()
 
 def isWordGuessed(secretWord, lettersGuessed):
@@ -133,6 +123,6 @@ def hangman(secretWord):
     if isWordGuessed(secretWord, lettersGuessed):
       print("Congratulations, you won!")
          
-# test test test
+# Driver Code.
 secretWord = chooseWord(wordlist).lower()
 hangman(secretWord)
